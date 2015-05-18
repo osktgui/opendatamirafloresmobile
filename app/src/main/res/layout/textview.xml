@@ -1,0 +1,12 @@
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/basic_editText"
+    android:layout_gravity="center_horizontal"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 -"
+    android:inputType="textCapCharacters"
+    android:clickable="false" />

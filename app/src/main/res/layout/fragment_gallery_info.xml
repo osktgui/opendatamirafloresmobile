@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:fillViewport="true">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="top"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="INFORMACIÓN"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Se inicia la campaña de recolección, iniciando el dia 20 de mayo, el objetivo es recolectar reciclaje de 1300 familias en un plazo de 7 dias. \n \n Inicio: 20 de mayo.\n Fin:27 de mayo.\n Familias registradas: 579 familias."
+        android:gravity="left"
+        android:padding="5dp"
+        android:lineSpacingMultiplier="1.2"/>
+
+      <Button
+          android:id="@+id/buttonParticipar"
+          android:layout_width="match_parent"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_height="wrap_content"
+          android:background="@drawable/flat_selector"
+          android:textColor="@android:color/white"
+          android:text="Participar!" />
+
+  </LinearLayout>
+
+</ScrollView>

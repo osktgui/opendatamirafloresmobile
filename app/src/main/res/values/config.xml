@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- API Credentials -->
+  <string name="api_space_id">1zd7hgtx3bo7</string>
+  <string name="api_access_token">3ffe48624b82db8e8c8b7ba2756e93874fe047441cebda42d1f572473d64b9f2</string>
+    3ffe48624b82db8e8c8b7ba2756e93874fe047441cebda42d1f572473d64b9f2
+    1zd7hgtx3bo7
+
+    fbr4i5aajb0w
+    bb7868adae619627d086f309f987e7765da1fc75336dea1f06c01dc959fc19a3
+
+  <!-- Content Types -->
+  <string name="content_type_author">38nK0gXXIccQ2IEosyAg6C</string>
+  <string name="content_type_gallery">7leLzv8hW06amGmke86y8G</string>
+  <string name="content_type_image">1xYw5JsIecuGE68mmGMg20</string>
+
+  <!-- URL Interception -->
+  <string name="url_intercept_schema">contentful-gallery</string>
+</resources>
